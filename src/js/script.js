@@ -3,18 +3,20 @@ $(document).ready(function(){
 		dots: true,
 		responsive: [
 			{
-				breakpoint: 420,
-				settings: {
-					dots: false,
-					arrows: false
-				},
 				breakpoint: 1200,
 				settings: {
 					dots: true,
 					arrows: false
 				}
+			},
+			{
+				breakpoint: 420,
+				settings: {
+					dots: false,
+					arrows: false
+				}
 			}
-	  	]
+		]
 	});
 });
 window.addEventListener('DOMContentLoaded', function () {
